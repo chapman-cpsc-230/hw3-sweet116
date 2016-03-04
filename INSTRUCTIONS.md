@@ -13,11 +13,45 @@ From the text, do the following exercises:
 
 ### `For`loops
 
-Write a program that asks the user for a list of names and then prints the list in the order they were given.
+#### Polygons
+Write a program that asks the user for two natural numbers `n` and `side_len` and produces a regular `n` sided polygon with each side of length `side_len`. For example, suppose the user responds as follows:
 
-[turtle](https://github.com/mandrewmoshier/hw3-/blob/master/finder-capture.png)
+```
+Enter number of sides: 5
+Enter length of each side: 10
+```
+Then your program should produce the following picture:
 
 
+![turtle pentagon](https://github.com/mandrewmoshier/hw3-/blob/master/pentagon.png)
+
+You may use the file *turtlestarter.py* included in this repo as a starter.
+
+Submit a file named *turtlepoly.py*.
+
+#### Stars
+
+Write a program that asks the user for an odd natural number `n` (needs to be at least 5) and a natural number `side_len` and produces an `n`-pointed star with `side_len` length between points. For example, suppose the user responds as follows:
+
+```
+Enter number of sides: 11
+Enter length of each side: 200
+```
+Then your program should produce the following picture:
+
+
+![turtle hendecagram](https://github.com/mandrewmoshier/hw3-/blob/master/hendecagram.png)
+
+You may use the file *turtlestarter.py* included in this repo as a starter.
+
+Submit a file named *turtlestar.py*.
+
+Hint: To get the turtle to turn correctly at each point of the star, think about how many total rotations the turtle will need to make to complete the figure. For a pentagram, it will be two full rotations (720 degrees). For a heptagram (a seven pointed star) it will be three full rotations (1080 degrees).
+
+*Bonus:* Can you figure out how to reposition the turtle before drawing so the star is centered left-to-right in its window? Assuming your turtle is named `t` you can
+
+* Lift the pen from the page by the command `t.up()`
+* Put the pen back down by the command `t.down()`
 
 ## General
 
