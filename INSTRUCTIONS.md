@@ -15,7 +15,7 @@ From the text, do the following exercises:
 
 Write a program that asks the user for a list of names and then prints the list in the order they were given.
 
-[turtle](https://github.com//mandrewmoshier/hw3-/blob/master/finder-capture.png)
+[turtle](https://github.com/mandrewmoshier/hw3-/blob/master/finder-capture.png)
 
 
 
