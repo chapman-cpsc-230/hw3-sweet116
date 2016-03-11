@@ -1,9 +1,16 @@
 import turtle
 
 # Ask user for input here.
-
-# Now create a graphics window.
 t = turtle.Pen()
+# Now create a graphics window.
+sides = int(input('enter odd number greater than five'))
+
+side_len = int(input('enter number'))
+
+for i in range(sides):
+    t.forward(side_.len)
+    t.left(100 - 100/sides)
+    t.forward(side_len)
 
 # Put the rest of your code can go here
 
